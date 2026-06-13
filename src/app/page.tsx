@@ -31,7 +31,12 @@ export default async function HomePage() {
             <p className="text-sm mt-1">Seja o primeiro a publicar!</p>
           </div>
         ) : (
-          posts.map((post) => <PostCard key={post.id} post={post} />)
+          posts.map((post) => (
+            <PostCard
+              key={post.id}
+              post={{ ...post, createdAt: post.createdAt.toISOString() }}
+            />
+          ))
         )}
       </main>
       <BottomNav />
