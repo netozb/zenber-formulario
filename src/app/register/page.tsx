@@ -35,7 +35,7 @@ export default function RegisterPage() {
             className="text-4xl font-bold text-center mb-3 italic"
             style={{ fontFamily: "Georgia, serif" }}
           >
-            Zenber
+            Flash
           </h1>
           <p className="text-center text-gray-500 text-sm mb-6 font-semibold">
             Cadastre-se para ver fotos dos seus amigos.

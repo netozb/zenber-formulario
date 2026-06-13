@@ -32,7 +32,7 @@ export default function LoginPage() {
             className="text-4xl font-bold text-center mb-8 italic"
             style={{ fontFamily: "Georgia, serif" }}
           >
-            Zenber
+            Flash
           </h1>
           <form onSubmit={handleSubmit} className="space-y-3">
             <input
